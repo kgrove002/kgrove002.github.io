@@ -1,0 +1,533 @@
+/* Kevin Grove
+10/12/2020
+style.css */
+
+/* resets the webpage to allow easier formatting.*/
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 20px;
+   
+}
+
+
+img {
+    max-width: 100%;
+    display: block;    
+}
+
+/*General Formatting*/
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.indent {
+    text-indent: 15px;
+}
+
+.background {
+    background-color: #f4f4f4;
+}
+
+h3 {
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 20px;
+    text-shadow: 2px 6px 4px teal;
+    color: purple;
+}
+
+/* Hero Page Formating*/
+
+.hero {
+   background-image:linear-gradient(rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.7)), url("headerbackground.jpg");
+    background-size: cover;
+    padding-bottom: 38px;
+}
+
+.hero header {
+    background-image: none;
+}
+
+.hero .headings {
+    font-size: 150%;
+}
+
+.hero figcaption {
+    text-shadow: 2px 6px 4px #0000ff;
+    color: teal;
+}
+
+.hero li a {
+    float: right;
+     font-size: 150%;
+}
+
+
+
+/* Header formatting*/
+
+header {
+    padding: 10px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.7)), url("headerbackground.jpg");
+    background-size: cover;
+    margin-bottom: 40px;
+    
+   }
+
+
+.header {
+    flex-flow: row wrap;
+    display: flex;
+    padding-bottom: 20px
+}
+
+.img-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+    
+}
+    
+
+.headings { 
+    text-align: center;
+    color: teal;
+    padding-right: 300px;
+    padding-top: 200px;
+    font-size: 125%
+}
+
+h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 240%;
+    padding-bottom: 20px;
+
+
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Nav formatting */
+  .sticky {
+      position: sticky;
+      top: 0;
+}
+
+
+.main-nav {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+    
+   
+    
+}
+
+.main-nav li { 
+    display: inline-block;
+    font-size: 1.75em;
+   
+  
+}
+
+.main-nav li a {
+    display: block;
+    color: teal;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid teal;
+}
+
+/* About Me formatting*/
+
+.about {
+    padding: 0 10px 105px 10px;
+    text-indent: 35px;
+    line-height: 150%
+}
+
+/* goals formatting */
+
+#goals {
+    text-indent: 35px; 
+    line-height: 150%;
+    padding-bottom: 10px;
+}
+
+#goals p{
+    margin-bottom: 20px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#goals table{ border: 1px solid black;}
+#goals tr  { border: 1px solid black;}
+#goals td { border: 1px solid black;}
+
+.table-title {
+    text-decoration: underline;
+}
+
+.goal-table {
+    padding-bottom: 20px;
+}
+
+/* Qualification formatting*/
+
+#ability  {
+    text-indent: 35px;
+    padding-bottom: 10px;
+}
+
+#ability p {padding-bottom: 10px;}
+
+.ability-table{padding-bottom: 73px;}
+
+#ability table, tr, td {
+      border: 0; 
+}
+
+
+.btn-large:link,
+.btn-large:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 50px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 400px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: #9f9f9f;
+    color: black;
+    margin-right: 20px;
+}
+
+.work-btn { 
+    text-align: center; 
+    padding-bottom: 40px;
+}
+
+.work-table {
+    border: 1px solid purple;
+    margin-bottom: 30px;
+   
+}
+
+.work-table td {
+    border: 1px solid purple;
+     padding: 30px;
+}
+
+work-table th {
+    border: 1px solid purple;
+     padding: 30px;
+}
+
+
+
+/* contact formatting*/
+
+.links {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: #9f9f9f;
+    color: black;
+    margin-right: 20px;
+    
+    
+}
+    
+    
+
+iframe { 
+    padding-top: 15px;
+    width: auto;
+}
+
+#contact-info p {text-indent: 35px;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+}
+
+label {
+    width: 30%;
+}
+
+input,
+select {
+    width: 50%;
+}
+
+form { 
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+     width: 80%;
+    margin: 0 auto;
+    
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid purple;
+    margin-bottom: 15px;
+}
+
+
+input[type=submit] {
+    margin-top: 20px;
+}
+
+
+/* Work Experience */
+
+.position {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.list-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.list {
+    padding-top: 10px;
+    padding-bottom:30px;
+    padding-left: 60px;
+}
+
+
+/* footer */
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    font-size: 80%;
+}
+
+footer a {
+    display: block;
+    color: teal;
+    text-align: center;
+    text-decoration: none;
+    }
+
+/* Queries */
+
+
+@media only screen and (max-width: 1400px ){
+
+        
+    .headings {
+        padding-right: 200px;
+        padding-top:  85px;
+    }
+    
+    
+}
+@media only screen and (max-width: 1400px ){
+
+        
+    .headings {
+        padding-right: 0;
+        padding-top:  85px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1000px ){
+    
+     .header {display: block;}
+    
+.headings { 
+    padding-right: 0;
+    padding-top: 0;
+    }
+    
+    .img-container {
+        width: 40%;
+      
+    }
+    
+}
+
+
+/*Queries for tablets*/
+
+@media only screen and (max-width: 780px ){
+    
+    /* Hero Page Formating*/
+
+
+    
+.hero header {
+
+    margin-bottom: 5px;
+}
+
+    
+.hero .headings {
+    font-size: 125%;
+}
+
+.hero li a {
+    float: none;
+     font-size: 50%;
+}
+    
+    
+    
+    .main-nav {font-size: 50px;}
+    
+        .headings { 
+    padding-right: 0;
+    padding-top: 0;
+    font-size: 125%
+}
+    .header {display: block;}
+    
+    h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 200%;
+
+}
+
+figcaption {
+    font-size: 140%;
+}
+    
+    .img-container {width: 40%;}
+    
+    #ability  {
+    padding-bottom: 20px;
+}
+
+}
+
+
+
+/* Queries for Small Phones*/
+@media only screen and (max-width: 380px ){
+    
+    
+    /* Hero Page Formating*/
+
+.hero header {
+
+    margin-bottom: 5px;
+}
+
+    
+.hero .headings {
+    font-size: 100%;
+}
+
+.hero li a {
+    float: none;
+     font-size: 40%;
+}
+    
+  
+    .img-container { width: 50%;}
+    
+    .header { display: block;}
+    
+    .headings { 
+    padding-right: 0;
+    padding-top: 0;
+    font-size: 125%
+}
+
+h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 200%;
+    padding-bottom: 20px;
+
+
+}
+
+figcaption {
+    font-size: 140%;
+}
+    
+    
+    footer p {font-size: 80%; }
+    
+    #ability  { text-indent: 15px;}
+    
+    td {text-indent: 0;}
+    
+    .btn:link,
+    .btn:visited { 
+        display: block;
+        margin-bottom: 20px; 
+    }
+    
+    input[type=submit] {
+   width: 100%;
+}
+     .work-table td {
+     padding: 0;
+}
+
+    .work-table th {
+     padding: 0;
+}
+    
+}
