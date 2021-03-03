@@ -201,12 +201,20 @@ table.center {
     padding-bottom: 10px;
 }
 
-#ability p {padding-bottom: 10px;}
 
-.ability-table{padding-bottom: 73px;}
+.grid-container-ability {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px 0px 70px 100px;
+   
+}
 
-#ability table, tr, td {
-      border: 0; 
+.ability-list {
+    list-style-type: none;
+}
+
+.ability-list li {
+    padding-bottom: 10px;
 }
 
 
@@ -459,6 +467,12 @@ figcaption {
 
 }
 
+.grid-container-ability {
+
+ padding: 50px 0px 70px 0px;
+   
+}
+
 
 
 /* Queries for Small Phones*/
@@ -528,6 +542,12 @@ figcaption {
 
     .work-table th {
      padding: 0;
+}
+
+.grid-container-ability {
+    display: block;
+    padding: 50px 0px 70px 30px;
+   
 }
     
 }
