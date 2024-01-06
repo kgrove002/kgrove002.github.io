@@ -9,7 +9,7 @@ const app = Vue.createApp({
               stars: (
                 '★★★★★'
               ),
-              link: 'https://github.com/kgrove002/portfolio',
+              link: 'https://github.com/kgrove002/kgrove002.github.io',
             },
             {
               language: 'JavaScript',
