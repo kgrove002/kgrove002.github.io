@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/qualifications.css">
+        <script src="https://kit.fontawesome.com/315496eb19.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
+        
+        <title>Kevin Grove's Qualifications</title>
+    </head>
+    
+    <body>
+      <header class="Header">
+        <h1>Kevin Grove</h1>
+        <h1>Tech Solutions</h1>
+      </header>
+      <nav class="Nav">
+        <ul>
+          <li>
+            <a href="index.html">About</a>
+          </li>
+          <li>
+            <a href="qualifications.html">Qualifications</a>
+          </li>
+          <li>                
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="app">
+          <main class="Qualifications">
+            <h2>Qualifications</h2>
+            <p>
+              Below are various qualifications that makes me an excellent addition to
+              your team or project.
+            </p>
+
+            <table class="table traits">
+              <tbody>
+                <tr>
+                  <td>
+                    <i class="fa-regular fa-star"></i> Strong Leadership
+                  </td>
+                  <td>
+                    <i class="fa-regular fa-star"></i> Excellent time management
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fa-regular fa-star"></i> A Driven Individual
+                  </td>
+                  <td>
+                    <i class="fa-regular fa-star"></i> Eager to Learn More
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h2>Work Experience </h2>
+      <p>
+        Currently, I do not have any work experience in software development.
+        This section will be updated as work experience is obtained.
+      </p>
+
+      <h2>Language Knowledge</h2>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Knowledge Level</th>
+            <th>Example of Work</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="lang in languages">
+            <td>{{ lang.language }}</td>
+            <td :class="{ 'red': lang.rating < 3, 'yellow': lang.rating === 3, 'green': lang.rating > 3 }">
+              {{ lang.stars }}
+          </td>
+            <td>
+               <a v-if="lang.link" :href="lang.link" target="_blank">Link</a>
+               <span v-else>No Examples available</span>
+            </td>
+         </tr>
+          </tbody>
+        </table>
+          </main>
+          <footer class="Footer">
+            <p> Kevin Grove All Right Reserved &copy; 2000 - {{ currentYear }}</p>
+          </footer>
+        </div>
+    </body>
+    <script src="app.js"></script>
+
+ </html>

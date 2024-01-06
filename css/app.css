@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #efefef;
+}
+
+.App {
+  width: 100%;
+  min-height: 66.5vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.Header,
+.Footer {
+  width: 100%;
+  background-color: teal;
+  padding: 1rem;
+  text-align: center;
+}
+
+.Footer {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Nav {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.Nav ul {
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.Nav li {
+  padding: 1rem;
+}
+
+.Nav li:hover,
+.Nav li:focus {
+  padding: 1rem;
+}
+
+.Nav li a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.Nav li:hover,
+.Nav li:focus,
+.Nav li:hover a,
+.Nav li:focus a {
+  background-color: #eee;
+  color: #333;
+}
+
+.Nav li:hover a,
+.Nav li:focus a {
+  cursor: pointer;
+}
+
+.About,
+.Qualifications,
+.Contact {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1.4rem 1rem;
+  background-color: #fff;
+  padding-bottom: 1.5rem;
+}
+
+.Footer {
+  padding: 0.75rem;
+  place-content: center;  
+}
+
+th,
+tr,
+td {
+  border-color: black;
+}
+
+@media only screen and (max-width: 475px) {
+  .Footer p {
+    font-size: 0.95rem;
+  }
+}
