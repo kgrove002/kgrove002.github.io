@@ -1,0 +1,42 @@
+.Qualifications table {
+  width: 70%;
+  padding-top: 4rem;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+.Qualifications .traits {
+  width: 30%;
+}
+
+.Qualifications .traits td {
+  border: none;
+}
+
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+
+@media only screen and (max-width: 750px) {
+  .Qualifications .traits {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .Qualifications .traits {
+    width: 70%;
+  }
+
+  .Qualifications .stars {
+    font-size: 13px;
+  }
+}
