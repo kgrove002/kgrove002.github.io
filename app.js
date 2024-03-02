@@ -80,6 +80,15 @@ const app = Vue.createApp({
                 '★★★★'
               ),
               link: "images/Certificate.pdf"
+            },
+            {
+              language: 'Tableau',
+              rating: 3,
+              stars: (
+                '★★★'
+
+              ),
+              link: "https://github.com/kgrove002/Example_of_Data_Analyst/tree/main/Data%20Analyst%20-%20Tableau",
             }
           ]
         }
