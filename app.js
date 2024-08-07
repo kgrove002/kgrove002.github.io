@@ -48,12 +48,12 @@ const app = Vue.createApp({
             },
             {
               language: 'C++',
-              rating: 1,
+              rating: 4,
               stars: (
-                '★'
+                '★★★★'
 
               ),
-              link: null,
+              link: "https://github.com/kgrove002/KG-To-Do-App",
             },
             {
               language: 'Python',
