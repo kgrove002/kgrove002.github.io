@@ -26,7 +26,7 @@ const app = Vue.createApp({
                 '★★★★'
 
               ),
-              link: 'https://kgrove002.github.io/todoapp',
+              link: 'https://github.com/kgrove002/todoapp',
             },
             {
               language: 'PHP/SQL',
