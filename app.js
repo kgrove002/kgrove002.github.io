@@ -26,7 +26,7 @@ const app = Vue.createApp({
                 '★★★★'
 
               ),
-              link: 'https://github.com/kgrove002/todoapp',
+              link: 'https://kgrove002.github.io/todoapp',
             },
             {
               language: 'PHP/SQL',
@@ -53,7 +53,7 @@ const app = Vue.createApp({
                 '★★★★'
 
               ),
-              link: "https://github.com/kgrove002/KG-To-Do-App",
+              link: 'https://github.com/kgrove002/KG-To-Do-App',
             },
             {
               language: 'Python',
@@ -89,6 +89,14 @@ const app = Vue.createApp({
 
               ),
               link: "https://github.com/kgrove002/Example_of_Data_Analyst/tree/main/Data%20Analyst%20-%20Tableau",
+            },
+            {
+              language: 'Unity/C#',
+                rating: 4,
+                stars: (
+                  '★★★★'
+                ),
+                link: "https://khtechgroup.itch.io/frog-games-free-to-play"
             }
           ]
         }

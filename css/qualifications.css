@@ -1,5 +1,5 @@
 .Qualifications table {
-  width: 70%;
+  width: 50%;
   padding-top: 4rem;
   margin: 0 auto;
 }
@@ -24,6 +24,24 @@ p {
 }
 .green {
   color: green;
+}
+
+.workExp {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.workExp ul{
+ display: inline-block;
+ text-align: left;
+ margin-bottom: 1.5rem;
+}
+
+.workExp li {
+  margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 750px) {
