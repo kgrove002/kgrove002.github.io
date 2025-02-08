@@ -88,7 +88,7 @@ const app = Vue.createApp({
                 '★★★'
 
               ),
-              link: "https://github.com/kgrove002/Example_of_Data_Analyst/tree/main/Data%20Analyst%20-%20Tableau",
+              link: "https://public.tableau.com/app/profile/kevin.grove2493/viz/SuperstoreAnalysis_17390433577340/Story1?publish=yes",
             },
             {
               language: 'Unity/C#',
