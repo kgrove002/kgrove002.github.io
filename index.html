@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/qualifications.css">
+        <link rel="stylesheet" href="css/contact.css">
         <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
         
         <title>About Kevin Grove</title>
@@ -20,53 +22,185 @@
           <nav class="Nav">
             <ul>
               <li>
-                <a href="index.html">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="qualifications.html">Qualifications</a>
+                <a href="#qualifications">Qualifications</a>
               </li>
               <li>                
-                <a href="contact.html">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>
           <div id="app">
-          <main class="App About">
-            <div class="image">
-                <img src="images/kevingrove.jpg" alt="Author" />
+          <main>
+            <div class="App About" id="about">
+              <div class="image">
+                  <img src="images/kevingrove.jpg" alt="Author" />
+                </div>
+                <div class="intro">
+                  <p>Hello, my name is Kevin Grove. I am a technology enthusiast with a strong foundation in software development and a passion for creating innovative solutions. I hold a Bachelor's degree in Computer Science from Wilmington University and currently work as a Realty Project Coach at Walmart. However, my goal is to transition into a full-time software development role.</p>  
+
+                  <p>I specialize in <strong>front-end development</strong> but have experience working across <strong>back-end and full-stack environments</strong>. My skill set includes <strong>Java, Python, React.js, SQL, and C++</strong>, and I am constantly expanding my knowledge to improve application usability and performance. In addition to software development, I have experience in <strong>data analytics and desktop computer repairs</strong>, making me a well-rounded problem solver.</p>  
+
+                  <p>Outside of work and studies, I actively engage in personal and collaborative projects, always seeking opportunities to learn and grow as a developer.</p>  
+                </div>
               </div>
-              <div class="intro">
-                <p>Hello, my name is Kevin Grove. I am a technology enthusiast with a strong foundation in software development and a passion for creating innovative solutions. I hold a Bachelor's degree in Computer Science from Wilmington University and currently work as a Realty Project Coach at Walmart. However, my goal is to transition into a full-time software development role.</p>  
+          <div class="Qualifications" id="qualifications">
+            <h2>Qualifications</h2>
+            <p>
+              Below are various qualifications that makes me an excellent addition to
+              your team or project.
+            </p>
 
-                <p>I specialize in <strong>front-end development</strong> but have experience working across <strong>back-end and full-stack environments</strong>. My skill set includes <strong>Java, Python, React.js, SQL, and C++</strong>, and I am constantly expanding my knowledge to improve application usability and performance. In addition to software development, I have experience in <strong>data analytics and desktop computer repairs</strong>, making me a well-rounded problem solver.</p>  
+            <table class="table traits">
+              <tbody>
+                <tr>
+                  <td>
+                    <i class="fa-regular fa-star"></i> Strong Problem-Solving Skills
+                  </td>
+                  <td>
+                    <i class="fa-regular fa-star"></i> Adaptable & Quick Learner
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fa-regular fa-star"></i> Full-Stack Development Experience
+                  </td>
+                  <td>
+                    <i class="fa-regular fa-star"></i> Proficient in Agile Methodologies
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fa-regular fa-star"></i> Leadership & Team Management
+                  </td>
+                  <td>
+                    <i class="fa-regular fa-star"></i> Passion for Innovation
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            
 
-                <p>Outside of work and studies, I actively engage in personal and collaborative projects, always seeking opportunities to learn and grow as a developer. Below is a list of my current goals.</p>  
+            <h2>Work Experience </h2>
+              <section class="workExp">
+                <h3>To-Do List Application</h3>
+                <h4>Built with PostgreSQL, C++, React.js, and Express.js</h4>
+                <h5>Can be viewed <a href="https://kgrove002.github.io/kgtodoapp/index.html"target="_blank">here</a>.</h5>
+                <ul>
+                  <li>Designed and developed a task management application with both a desktop and web-based interface.</li>
+                  <li>Implemented a PostgreSQL database to store user tasks and login credentials securely.</li>
+                  <li>Developed the desktop version using C++ with a focus on performance and usability.</li>
+                  <li>Created the web application using React.js for the front-end and Express.js for the back-end.</li>
+                  <li>Integrated a user authentication system, allowing users to log in from any device and manage tasks seamlessly.</li>
+                  <li>Optimized database queries for efficient data retrieval and storage.</li>
+                </ul>
 
-        
-                <table class="table table-bordered">
-                  <thead>
-                    <tr>
-                      <th>Year Expected to Complete Goal</th>
-                      <th>Goal</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>2025</td>
-                      <td>Complete my degree with Wilmington University. </td>
-                    </tr>
-                    <tr>
-                      <td>2025-2027</td>
-                      <td>Obtain a job within my degree's field. </td>
-                    </tr>
-                    <tr>
-                      <td>2030-2035</td>
-                      <td>Start my own software development business.</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+                <h3>Mobile Game Application</h3>
+                <h4>Collaborative project with a focus on game development and design.</h4>
+                <h5>Can be viewed <a href="https://khtechgroup.itch.io/frog-games-free-to-play"target="_blank">here</a>.</h5>
+                <ul>
+                  <li>Developed the game logic and mechanics using C# in Unity, ensuring smooth and engaging gameplay.</li>
+                  <li>Designed and implemented multiple levels and user experience.</li>
+                  <li>Collaborated with an artist to integrate custom graphics and animations into the game.</li>
+                  <li>Handled game physics and AI behaviors to enhance interactivity.</li>
+                  <li>Conducted playtesting and debugging to refine performance and user engagement.</li>
+                </ul>
+                
+                <h3>Tableau Data Analytics Project</h3>
+                <h4>Exploring Sales Metrics Using the Superstore Dataset</h4>
+                <h5>Can be viewed <a href="https://public.tableau.com/app/profile/kevin.grove2493/viz/SuperstoreAnalysis_17390433577340/Story1?publish=yes" target="_blank">here</a>.</h4>
+                <ul>
+                  <li>Developed a <strong>Tableau story</strong> analyzing sales data from the <strong>Kaggle Superstore dataset</strong>.</li>
+                  <li>Visualized <strong>total company sales by year</strong>, helping identify revenue growth trends.</li>
+                  <li>Analyzed <strong>sales performance across regions</strong> to compare regional profitability.</li>
+                  <li>Evaluated <strong>shipping costs per region</strong> and their impact on net sales.</li>
+                  <li>Utilized <strong>data storytelling techniques</strong> to present insights in a structured and meaningful way.</li>
+                </ul>
+              </section>
 
+      <h2>Language Knowledge</h2>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Knowledge Level</th>
+            <th>Example of Work</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="lang in languages">
+            <td>{{ lang.language }}</td>
+            <td :class="{ 'red': lang.rating < 3, 'yellow': lang.rating === 3, 'green': lang.rating > 3 }">
+              {{ lang.stars }}
+          </td>
+            <td>
+               <a v-if="lang.link" :href="lang.link" target="_blank">Link</a>
+               <span v-else>No Examples available</span>
+            </td>
+         </tr>
+          </tbody>
+        </table>
+          </div>
+         <div class="Contact App" id="contact">
+            <h2>Contact Me</h2>
+      <p>
+        Below are links to examples of my work and a way to contact me directly.
+        I hope to hear from you soon!
+      </p>
+      <div class="buttons">
+        <a href="https://github.com/kgrove002" target="_blank" rel="noreferrer">
+          <button type="button" class="btn btn-secondary">
+            GitHub
+          </button>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kevin-grove-60010b194/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button type="button" class="btn btn-secondary">
+            LinkedIn
+          </button>
+        </a>
+      </div>
+
+      <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('gmail', 'template_33n0yiq',this, 'RnG8-IShnu5RbTCZN')
+                    .then(function() {
+                        console.log("success");
+                        document.getElementById("confirmation").innerHTML = "Success!";
+                        document.getElementById("confirmation").style.color = "green";
+
+                        document.getElementById('contactForm').reset();
+
+                    }, function(error) {
+                        console.log(error);
+                        document.getElementById("confirmation").innerHTML = "There was an issue. Please email bqcritken@gmail.com directly!";
+                        document.getElementById("confirmation").style.color = "red";
+                    });
+            });
+        }
+    </script>
+      <h2 id="confirmation">
+      </h2>
+
+      <form class="contactForm" id="contactForm">
+        <label for="name">Name:</label>
+        <input name="name" type="text" required />
+        <label for="email">Email:</label>
+        <input name="email" type="text" required />
+        <label for="subject">Reason For Contact:</label>
+        <input name="subject" type="text" required />
+        <label for="message">Message</label>
+        <textarea name="message" required></textarea>
+        <input type="submit" value="submit">
+      </form>
+    </div>
           </main>
           <footer class="Footer">
             <p> Kevin Grove All Right Reserved &copy; 2020 - {{ currentYear }}</p>

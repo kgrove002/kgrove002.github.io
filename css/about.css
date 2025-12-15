@@ -1,19 +1,18 @@
 .About {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
   }
   
   .intro {
-    width: 70%;
+    width: 50%;
     padding: 2rem;
     font-size: 18px;
     text-indent: 40px;
   }
   
-  table {
-    margin-top: 3rem;
+  .intro p {
+    text-align: left;
   }
   
   @media only screen and (max-width: 850px) {
